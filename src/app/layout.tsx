@@ -18,8 +18,8 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<main className="bg-emerald-100 h-screen flex items-center justify-center">
-					<div className="max-w-screen-lg h-full max-h-96 m-auto flex-1 px-4">
-						<div className="bg-white rounded-3xl h-full shadow-lg w-full p-8">
+					<div className="max-w-screen-md mx-auto flex-1 px-4 flex flex-col">
+						<div className="bg-white rounded-3xl shadow-lg grid w-full p-8 flex-1">
 							{children}
 						</div>
 					</div>
