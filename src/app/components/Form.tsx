@@ -2,18 +2,19 @@
 
 import React from "react"
 
-interface FormProps {
+function Form({
+	value,
+	onChange,
+}: {
 	value: number
 	onChange: (amount: number) => void
-}
-
-function Form({ value, onChange }: FormProps) {
+}) {
 	return (
 		<form className="w-full">
-			<label className="block space-y-4">
-				<span>Monto en ARS:</span>
+			<label className="block space-y-3 text-lg">
+				<span className="text-black">Monto en ARS:</span>
 				<input
-					className="block p-2 text-right w-full bg-gray-200 border-solid rounded-xl"
+					className="block w-full rounded-full bg-gray-300 p-2 text-right text-3xl"
 					type="number"
 					value={value}
 					onChange={(e) => onChange(Number(e.target.value))}
