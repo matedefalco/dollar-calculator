@@ -31,7 +31,7 @@ export default function RootLayout({
 							{children}
 						</div>
 						<section className="text-gray-600 flex flex-col items-center gap-2">
-							<p>Made with</p>
+							<p>Made with:</p>
 							<ul className="flex items-center gap-4">
 								{imgUrls.map((url, index) => (
 									<li
