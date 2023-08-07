@@ -8,8 +8,6 @@ interface FormProps {
 }
 
 function Form({ value, onChange }: FormProps) {
-	const [amount, setAmount] = React.useState(1)
-
 	return (
 		<form className="w-full">
 			<label className="block space-y-4">
