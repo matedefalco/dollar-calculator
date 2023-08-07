@@ -1,0 +1,18 @@
+{
+	"Dólar Oficial": {
+		"compra": 276.5,
+		"venta": 291.5
+	},
+	"Dólar Blue": {
+		"compra": 569.0,
+		"venta": 574.0
+	},
+	"Dólar Contado con Liqui": {
+		"compra": 559.0,
+		"venta": 570.0
+	},
+	"Dólar Cripto": {
+		"compra": 563.0,
+		"venta": 573.0
+	}
+}
