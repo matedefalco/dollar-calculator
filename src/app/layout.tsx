@@ -18,12 +18,11 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<main className="bg-emerald-100 h-screen flex items-center justify-center">
+				<main className="bg-emerald-100 h-screen flex items-center justify-center px-8">
 					<div className="max-w-screen-md mx-auto flex-1 px-4 flex flex-col gap-8">
 						<div className="bg-white rounded-3xl shadow-lg grid w-full p-8 flex-1">
 							{children}
 						</div>
-						{/* REFERENCES */}
 						<References />
 					</div>
 				</main>

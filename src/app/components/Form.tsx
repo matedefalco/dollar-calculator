@@ -14,7 +14,7 @@ function Form({
 			<label className="block space-y-3 text-lg">
 				<span className="text-black">Monto en ARS:</span>
 				<input
-					className="block w-full rounded-full bg-gray-300 p-2 text-right text-3xl"
+					className="block w-full rounded-full text-black bg-gray-300 p-2 text-right text-3xl"
 					type="number"
 					value={value}
 					onChange={(e) => onChange(Number(e.target.value))}

@@ -29,17 +29,17 @@ export default function HomeClient({
 								key={nombre}
 								className="flex items-center justify-between gap-4"
 							>
-								<div className="text-emerald-100">{nombre}</div>
-								<div className="flex items-center gap-4">
-									{amount ? (
-										<div className="text-xl font-bold text-emerald-500">
-											{Number(total).toLocaleString("es-AR", {
-												style: "currency",
-												currency: "ARS",
-											})}
-										</div>
-									) : null}
-									<div className="text-3xl font-bold text-emerald-300">
+								<div className="portrait:text-sm text-emerald-100">
+									{nombre}
+								</div>
+								<div className="flex flex-col items-end">
+									<div className="text-3xl font-bold text-emerald-300 portrait:text-lg">
+										{Number(total).toLocaleString("es-AR", {
+											style: "currency",
+											currency: "ARS",
+										})}
+									</div>
+									<div className="text-xl font-bold text-emerald-500 portrait:text-sm">
 										{Number(venta).toLocaleString("es-AR", {
 											style: "currency",
 											currency: "ARS",
