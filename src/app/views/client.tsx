@@ -1,8 +1,8 @@
 "use client"
 
-import type { Cotizacion } from "./types"
+import type { Cotizacion } from "../types"
 import { useState } from "react"
-import Form from "./components/Form"
+import Form from "../components/Form"
 
 export default function HomeClient({
 	cotizaciones,
